@@ -10,6 +10,20 @@ title: 'Hello World'
 <html>
 <head>
   <script src="https://unpkg.com/dexie/dist/dexie.js"></script>
+  <style>
+         *{
+          color: yellow;
+          bg-color: cyan;
+          cell-spacing: 200px;
+          word-spacing: 500px;
+    }
+    head {
+       font-style: italic;
+       font-face: Script MT;
+       padding: 300%;
+    }
+  
+  </style>
   <script>
 
     var db = new Dexie("FriendDatabase");
